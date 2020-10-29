@@ -1,8 +1,11 @@
 body {
   padding: 0;
   margin: 0; 
+  font-family: 'Roboto', sans-serif;
 }
-
+body * {
+  color: #6b6b6b;
+}
 #navbar {
   position: absolute;
   width: 100%;
@@ -111,9 +114,14 @@ body {
   }
   #navbar ul li {
     display: block;
+    margin: 5px 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  #navbar ul li:last-of-type {
+    border-bottom: none;
   }
   #navbar a {
-    color: white;
+    color: #6b6b6b;
   }
   
 }
