@@ -24,6 +24,7 @@ const toggleMenuHandler = () => {
             setClass("#btnBar1");
             setClass("#btnBar2");
             setClass("#btnBar3");
+            setClass("#logotype");
         }
     });
 
@@ -32,6 +33,5 @@ const toggleMenuHandler = () => {
     setClass("#btnBar3", "class", btnBar3_class);        
     setClass("#navbar", "class", navbarClass);  
     setClass("#logotype", "class", logotype);
-    
 }
 
