@@ -13,7 +13,16 @@ body {
   z-index: 999;
   transition: ease-in-out .2s;
 }
-
+#navbar a img {
+  position: absolute;
+  top:10px;
+  left: 0;
+  transition: ease-in-out .2s;
+}
+.logoChangePosition {
+  left: calc(50% - 40px)!important;
+  top: 15rem!important;
+}
 .navbarHeight {
   height: 100vh!important;
 }
@@ -97,7 +106,7 @@ body {
     background: black;
   }
   #navbar ul {
-    top: 40px;
+    top: 20rem;
     text-align: center;
   }
   #navbar ul li {
