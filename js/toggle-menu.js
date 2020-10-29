@@ -32,6 +32,7 @@ const toggleMenuHandler = () => {
     setClass("#btnBar2", "class", btnBar2_class);        
     setClass("#btnBar3", "class", btnBar3_class);        
     setClass("#navbar", "class", navbarClass);  
-    setClass("#logotype", "class", logotype);
+
+    setTimeout( () => setClass("#logotype", "class", logotype), 100);
 }
 
